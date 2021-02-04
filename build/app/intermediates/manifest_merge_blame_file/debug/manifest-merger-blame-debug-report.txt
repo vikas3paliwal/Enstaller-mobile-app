@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.enstaller"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+16-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+17-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:connectivity] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+18-->[:connectivity] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[:connectivity] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+19-->[:connectivity] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:10:5-55:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:11:9-57
+27        android:allowBackup="false"
+27-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:16:9-36
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/launcher_icon"
+30-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:13:9-45
+31        android:label="enstaller"
+31-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:12:9-34
+32        android:networkSecurityConfig="@xml/network_security_config"
+32-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:14:9-69
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:15:9-44
+34        <meta-data
+34-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:17:9-127
+35            android:name="com.google.android.maps.v2.API_KEY"
+35-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:17:20-69
+36            android:value="AIzaSyAbrokB774DvarTbte_iwTFrhSz84xc4ng" />
+36-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:17:70-125
+37
+38        <activity
+38-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:19:9-47:20
+39            android:name="com.enstaller.MainActivity"
+39-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:20:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:23:13-163
+41            android:hardwareAccelerated="true"
+41-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:24:13-47
+42            android:launchMode="singleTop"
+42-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:21:13-43
+43            android:theme="@style/LaunchTheme"
+43-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:22:13-47
+44            android:windowSoftInputMode="stateVisible" >
+44-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:25:13-55
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52            <meta-data
+52-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:30:13-33:17
+53                android:name="io.flutter.embedding.android.NormalTheme"
+53-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:31:15-70
+54                android:resource="@style/NormalTheme" />
+54-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:32:15-52
+55            <!--
+56                 Displays an Android View that continues showing the launch screen
+57                 Drawable until Flutter paints its first frame, then this splash
+58                 screen fades out. A splash screen is useful to avoid any visual
+59                 gap between the end of Android's launch screen and the painting of
+60                 Flutter's first frame.
+61            -->
+62            <meta-data
+62-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:39:13-42:17
+63                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+63-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:40:15-79
+64                android:resource="@drawable/launch_background" />
+64-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:41:15-61
+65
+66            <intent-filter>
+66-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:43:13-46:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:44:17-68
+67-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:44:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:45:17-76
+69-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:45:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity" />
+72-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:48:9-90
+72-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:48:19-88
+73
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:52:9-54:33
+79            android:name="flutterEmbedding"
+79-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:53:13-44
+80            android:value="2" />
+80-->C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\android\app\src\main\AndroidManifest.xml:54:13-30
+81
+82        <provider
+82-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+83            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+83-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+84            android:authorities="com.enstaller.flutter.image_provider"
+84-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+85            android:exported="false"
+85-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+86            android:grantUriPermissions="true" >
+86-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+87            <meta-data
+87-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+89                android:resource="@xml/flutter_image_picker_file_paths" />
+89-->[:image_picker] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+90        </provider>
+91
+92        <activity
+92-->[:url_launcher] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+93            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+93-->[:url_launcher] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+94            android:exported="false"
+94-->[:url_launcher] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+95            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+95-->[:url_launcher] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+96        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" /> <!-- Needs to be explicitly declared on P+ -->
+96-->[:barcode_scan] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-84
+96-->[:barcode_scan] C:\Users\vicky\AndroidStudioProjects\enstaller-mobile-app-main\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:19-81
+97        <uses-library
+97-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+98            android:name="org.apache.http.legacy"
+98-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+99            android:required="false" />
+99-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\63237198b52fc99a16ca8da1d212b6b3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\63237198b52fc99a16ca8da1d212b6b3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vicky\.gradle\caches\transforms-2\files-2.1\63237198b52fc99a16ca8da1d212b6b3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+109    </application>
+110
+111</manifest>
